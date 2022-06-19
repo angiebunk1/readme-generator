@@ -15,9 +15,6 @@ const questions = [
         message: "What is your project description?"
     },
     {
-        //Do I need to ask the use for table of contents? Or can it be built from the fields already included?
-    },
-    {
         type: "input",
         name: "installation",
         message: "What are the installation instructions for your project?"
@@ -73,8 +70,33 @@ function generateMarkdown(answers) {
 ## Description
 ${answers.description}
 
+## Table of Contents
+-  [Installation](#installation)
+-  [Usage](#usage)
+-  [License](#license)
+-  [Contributing](#contributing)
+-  [Tests](#tests)
+-  [Questions](#questions)
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
 ## License
 ${answers.license}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
+
+## Questions
+https://github.com/${answers.github}
+${answers.email}
+${answers.contact}
   
   `;
   }
