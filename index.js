@@ -15,6 +15,19 @@ const questions = [
         message: "What is your project description?"
     },
     {
+        //Do I need to ask the use for table of contents? Or can it be built from the fields already included?
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the installation instructions for your project?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What is the intended usage of your project?"
+    },
+    {
         type: "list",
         name: "license",
         message: "Which license would you like to use?",
@@ -23,6 +36,31 @@ const questions = [
             "IBM Public License Version 1.0",
             "Mozilla Public License 2.0"
         ]
+    },
+    {
+        type: "input",
+        name: "contibuting",
+        message: "How can other developers contribute to this project?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "What are some tests a user can run on your proeject?"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your github username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    },
+    {
+        type: "input",
+        name: "contact",
+        message: "What are your contact instructions?"
     }
 ];
 
