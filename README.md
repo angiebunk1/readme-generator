@@ -1,11 +1,11 @@
-# asdfa
+# the project
 
 
-    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 
 ## Description
-asdfas
+how to project
 
 ## Table of Contents
 -  [Installation](#installation)
@@ -16,22 +16,22 @@ asdfas
 -  [Questions](#questions)
 
 ## Installation
-asdfasdf
+install then project
 
 ## Usage
-asdfasdf
+to make projects
 
 ## License
 
 
 ## Contributing
-sdfasdf
+make a project
 
 ## Tests
-asdfasd
+make another proeject
 
 ## Questions
-https://github.com/asdfasdf
-asdfasd
-asdfasdf
+-  https://github.com/angiebunk1
+-  angiebunk@gmail.com
+-  Contact me at github or email!
 
