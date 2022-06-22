@@ -32,7 +32,8 @@ const questions = [
         choices: [
             "The MIT License",
             "IBM Public License Version 1.0",
-            "Mozilla Public License 2.0"
+            "Mozilla Public License 2.0",
+            "No license"
         ]
     },
     {
