@@ -9,23 +9,16 @@ function renderLicenseBadge(license) {
     return ''
     
   }
- 
-
-
   if (license === "The MIT License") {
   
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`   
    }
-  // if (license === "IBM Public License Version 1.0") {
-  //   return `
-  //   ![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)
-  //  `
-  // }
-  // if (license === "Mozilla Public License 2.0") {
-  //   return `
-  //   ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
-  //   `
-  // }
+  if (license === "IBM Public License Version 1.0") {
+    return `![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)`
+  }
+  if (license === "Mozilla Public License 2.0") {
+    return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`
+  }
 }
 
 
@@ -40,9 +33,12 @@ function renderLicenseLink(license) {
   else if (license === "The MIT License") {
     return `https://opensource.org/licenses/MIT`
   }
-
-
-
+  else if (license === "IBM Public License Version 1.0") {
+    return `https://opensource.org/licenses/IPL-1.0`
+  }
+  else if (license === "Mozilla Public License 2.0") {
+    return `https://opensource.org/licenses/MPL-2.0`
+  }
 }
 
 
