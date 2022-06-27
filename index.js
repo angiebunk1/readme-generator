@@ -75,7 +75,7 @@ function init() {
 
         console.log(readme);
 
-        fs.writeFile("./README.md", readme, () => {
+        fs.writeFile("./generatedREADME.md", readme, () => {
             console.log("Successfully created README!")
         })
       })
