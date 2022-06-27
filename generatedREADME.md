@@ -1,9 +1,9 @@
-# The Project
+# The Project Planner
 
 ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
 ## Description
-Organize a project
+This application is for people planning projects
 
 ## Table of Contents
 -  [Installation](#installation)
@@ -14,10 +14,10 @@ Organize a project
 -  [Questions](#questions)
 
 ## Installation
-Download the app and try it out
+Download the app to your phone or computer to start using.  Or visit the webpage.
 
 ## Usage
-To help people plan their projects
+Users enter details of projects in provided fields to see generated project plan
 
 ## License
 This project is protected under the following license: Mozilla Public License 2.0
@@ -25,13 +25,13 @@ This project is protected under the following license: Mozilla Public License 2.
 
 
 ## Contributing
-Contact me and I will let you know
+Contact me at the email address provided below if you want to contribute to this project. 
 
 ## Tests
-Enter your project title and see if it appears
+Use some sample data to see a generated project plan. 
 
 ## Questions
 -  https://github.com/angiebunk1
 -  angela.gustafson@gmail.com
--  Check out my github profile or send me an email
+-  Email me if you have any questions!
 
